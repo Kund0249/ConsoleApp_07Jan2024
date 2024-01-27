@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.ControlStatements.IFDemo</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.ControlStatements.BasicCalculator</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basic\HelloWorld.cs" />
+    <Compile Include="ControlStatements\BasicCalculator.cs" />
     <Compile Include="ControlStatements\IFDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
