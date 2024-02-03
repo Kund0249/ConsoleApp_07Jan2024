@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.ControlStatements.BasicCalculator</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.ControlStatements.DoWhileLoopDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,7 +48,11 @@
   <ItemGroup>
     <Compile Include="Basic\HelloWorld.cs" />
     <Compile Include="ControlStatements\BasicCalculator.cs" />
+    <Compile Include="ControlStatements\DoWhileLoopDemo.cs" />
+    <Compile Include="ControlStatements\ForLoopDemo.cs" />
     <Compile Include="ControlStatements\IFDemo.cs" />
+    <Compile Include="ControlStatements\Pattern1.cs" />
+    <Compile Include="ControlStatements\WhileLoopDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

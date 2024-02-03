@@ -16,7 +16,7 @@ namespace ConsoleApp_07Jan2024.ControlStatements
             Console.Write("Enter N2 : ");
             int N2 = Convert.ToInt32(Console.ReadLine());
 
-            //if(N1 == N2)
+            //if(N1 == N2)   
             //    Console.WriteLine("N1 and N2 are equals");
             //else if(N1 > N2)
             //    Console.WriteLine("N1 is greater");
