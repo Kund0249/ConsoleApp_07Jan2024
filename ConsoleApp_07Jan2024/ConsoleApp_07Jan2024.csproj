@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.ControlStatements.DoWhileLoopDemo</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.ArrayExample.MultiDimentionArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayExample\ArrayExample.cs" />
+    <Compile Include="ArrayExample\MultiDimentionArray.cs" />
+    <Compile Include="ArrayExample\SingleDimentionArray.cs" />
     <Compile Include="Basic\HelloWorld.cs" />
     <Compile Include="ControlStatements\BasicCalculator.cs" />
     <Compile Include="ControlStatements\DoWhileLoopDemo.cs" />
