@@ -10,46 +10,69 @@ namespace ConsoleApp_07Jan2024.ControlStatements
     {
         static void Main(string[] args)
         {
-            char ToContinue;
+            bool IsAuthenticated = true;
             do
             {
-                Console.Write("Enter N1 : ");
-                int N1 = Convert.ToInt32(Console.ReadLine());
 
-                Console.Write("Enter N2 : ");
-                int N2 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("UserId : ");
+                string userId = Console.ReadLine();
 
-            TakeOperator:
-                Console.Write("Select Operator [+ - * /] : ");
-                char op = Console.ReadKey().KeyChar;
-                Console.WriteLine();
+                Console.Write("Password : ");
+                string password = Console.ReadLine();
 
-                switch (op)
+                if(userId == "admin" && password == "123456")
                 {
-                    case '+':
-                        Console.WriteLine("Result : {0}", (N1 + N2));
-                        break;
-                    case '-':
-                        Console.WriteLine("Result : {0}", (N1 - N2));
-                        break;
-                    case '*':
-                        Console.WriteLine("Result : {0}", (N1 * N2));
-                        break;
-                    case '/':
-                        Console.WriteLine("Result : {0}", (N1 / N2));
-                        break;
-                    default:
-                        Console.WriteLine("OOPS! invalid input.");
-                        goto TakeOperator;
+                    IsAuthenticated = true;
+                    Console.WriteLine("Welcome - " + userId);
+                }
+                else
+                {
+                    IsAuthenticated = false;
+                    Console.WriteLine("Opps! Invalid userid or password");
                 }
 
+            } while (!IsAuthenticated);
 
-                Console.Write("Press Y to continue : ");
-                ToContinue = Console.ReadKey().KeyChar;
-                ToContinue = char.ToLower(ToContinue);
-                Console.WriteLine();
+            //char ToContinue;
+            //do
+            //{
+            //    Console.Write("Enter N1 : ");
+            //    int N1 = Convert.ToInt32(Console.ReadLine());
 
-            } while (ToContinue == 'y');
+            //    Console.Write("Enter N2 : ");
+            //    int N2 = Convert.ToInt32(Console.ReadLine());
+
+            //TakeOperator:
+            //    Console.Write("Select Operator [+ - * /] : ");
+            //    char op = Console.ReadKey().KeyChar;
+            //    Console.WriteLine();
+
+            //    switch (op)
+            //    {
+            //        case '+':
+            //            Console.WriteLine("Result : {0}", (N1 + N2));
+            //            break;
+            //        case '-':
+            //            Console.WriteLine("Result : {0}", (N1 - N2));
+            //            break;
+            //        case '*':
+            //            Console.WriteLine("Result : {0}", (N1 * N2));
+            //            break;
+            //        case '/':
+            //            Console.WriteLine("Result : {0}", (N1 / N2));
+            //            break;
+            //        default:
+            //            Console.WriteLine("OOPS! invalid input.");
+            //            goto TakeOperator;
+            //    }
+
+
+            //    Console.Write("Press Y to continue : ");
+            //    ToContinue = Console.ReadKey().KeyChar;
+            //    ToContinue = char.ToLower(ToContinue);
+            //    Console.WriteLine();
+
+            //} while (ToContinue == 'y');
 
         }
     }
