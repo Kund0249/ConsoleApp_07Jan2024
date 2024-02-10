@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp_07Jan2024.Methods;
 
 namespace ConsoleApp_07Jan2024.Basic
 {
@@ -10,6 +11,10 @@ namespace ConsoleApp_07Jan2024.Basic
         }
         public static void Main()
         {
+
+            MathUtility utility = new MathUtility();
+            int sum = utility.Add(10, 20);
+
             byte n = 255; //1 byte +
             sbyte n2 = 127;//1 byte (+,-)
 

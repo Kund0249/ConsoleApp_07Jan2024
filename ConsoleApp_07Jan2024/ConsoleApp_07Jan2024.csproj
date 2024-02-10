@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.ArrayExample.MultiDimentionArray</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.Methods.Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayExample\ArrayExample.cs" />
+    <Compile Include="ArrayExample\EvenOdd.cs" />
     <Compile Include="ArrayExample\MultiDimentionArray.cs" />
     <Compile Include="ArrayExample\SingleDimentionArray.cs" />
     <Compile Include="Basic\HelloWorld.cs" />
@@ -56,6 +57,8 @@
     <Compile Include="ControlStatements\IFDemo.cs" />
     <Compile Include="ControlStatements\Pattern1.cs" />
     <Compile Include="ControlStatements\WhileLoopDemo.cs" />
+    <Compile Include="Methods\Demo.cs" />
+    <Compile Include="Methods\MathUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
