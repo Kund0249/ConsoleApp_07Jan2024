@@ -12,7 +12,13 @@ namespace ConsoleApp_07Jan2024.OOPS.Inheritance
         {
             GoldLoan loan = new GoldLoan()
             {
-
+                AccountNumber = "371853715",
+                AccountHolder = "A",
+                GoldWeight = 32,
+                PrincpleAmount = 1029029,
+                ROI = 5,
+                Tenure = 2,
+                Iteams = new string[]{"Ring","Chanin"}
             };
         }
     }
