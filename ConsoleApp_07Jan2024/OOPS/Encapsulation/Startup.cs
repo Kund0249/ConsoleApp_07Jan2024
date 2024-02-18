@@ -37,6 +37,7 @@ namespace ConsoleApp_07Jan2024.OOPS.Encapsulation
 
             //Console.WriteLine($"Id : {p.Id} Name : {p.Name}");
 
+            
             Student s = new Student()
             {
                 RollNo = 10,

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_07Jan2024.OOPS.Encapsulation
 {
-    public class Student
+     class Student
     {
         private int _RollNo;
         private string _Name;
