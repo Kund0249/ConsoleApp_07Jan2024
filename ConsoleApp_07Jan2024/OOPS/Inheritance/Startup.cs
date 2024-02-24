@@ -10,16 +10,20 @@ namespace ConsoleApp_07Jan2024.OOPS.Inheritance
     {
         static void Main(string[] args)
         {
-            GoldLoan loan = new GoldLoan()
-            {
-                AccountNumber = "371853715",
-                AccountHolder = "A",
-                GoldWeight = 32,
-                PrincpleAmount = 1029029,
-                ROI = 5,
-                Tenure = 2,
-                Iteams = new string[]{"Ring","Chanin"}
-            };
+            //  GoldLoan GL = new GoldLoan()
+            //  {
+            //      AccountNumber = "y16356735671",
+            //      AccountHolder = "John",
+            //      ROI = 5,
+            //      PricePerGram = 4400,
+            //      GW = 39,
+            //      PA = 100000,
+            //      Tenure = 2
+            //  };
+
+            //float PA =  GL.GetPayableAmount();
+
+            //Loan loan = new Loan();
         }
     }
 }

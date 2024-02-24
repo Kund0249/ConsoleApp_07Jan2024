@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_07Jan2024.OOPS.Inheritance
 {
-   public class PersonalLoan : Loan
+    class PersonalLoan : Loan
     {
-        //public string AccountNumber;
-        //public string AccountHolder;
-        //public float ROI;
-        //public float PrincpleAmount;
-        //public int Tenure;
-        public int EmpId;
-        public string OrgName;
-        public string OrgEmail;
-        public string PersonalEmail;
-        public float Salary;
+        public int CurrentSalary { get; set; }
+        public string OrgName { get; set; }
+        public string MyProperty { get; set; }
+
+        public override void Disburse()
+        {
+            //code
+        }
     }
 }

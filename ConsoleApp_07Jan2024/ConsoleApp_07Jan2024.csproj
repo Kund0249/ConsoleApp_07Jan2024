@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.OOPS.Encapsulation.Startup</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.OOPS.Inheritance.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,9 @@
     <Compile Include="ControlStatements\WhileLoopDemo.cs" />
     <Compile Include="Methods\Demo.cs" />
     <Compile Include="Methods\MathUtility.cs" />
+    <Compile Include="OOPS\Abstraction\Department.cs" />
+    <Compile Include="OOPS\Abstraction\DepartmentRepository.cs" />
+    <Compile Include="OOPS\Abstraction\IDepartmentRepository.cs" />
     <Compile Include="OOPS\Employee.cs" />
     <Compile Include="OOPS\Encapsulation\Product.cs" />
     <Compile Include="OOPS\Encapsulation\Startup.cs" />
