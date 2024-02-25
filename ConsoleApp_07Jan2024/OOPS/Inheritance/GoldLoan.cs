@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_07Jan2024.OOPS.Inheritance
 {
-    class GoldLoan : Loan
+   public class GoldLoan : Loan
     {
         public float GW { get; set; }
         public float PricePerGram { get; set; }
 
+        public override void Disburse()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

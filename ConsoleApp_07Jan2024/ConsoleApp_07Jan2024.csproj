@@ -34,9 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.OOPS.Inheritance.Startup</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.OOPS.Polymorphism.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MessagingServices">
+      <HintPath>..\..\MessagingServices\MessagingServices\bin\Debug\MessagingServices.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -71,6 +74,10 @@
     <Compile Include="OOPS\Inheritance\Loan.cs" />
     <Compile Include="OOPS\Inheritance\PersonalLoan.cs" />
     <Compile Include="OOPS\Inheritance\Startup.cs" />
+    <Compile Include="OOPS\Polymorphism\MailService.cs" />
+    <Compile Include="OOPS\Polymorphism\MethodOverLoading.cs" />
+    <Compile Include="OOPS\Polymorphism\MethodOverriding.cs" />
+    <Compile Include="OOPS\Polymorphism\Startup.cs" />
     <Compile Include="OOPS\Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticMember\Startup.cs" />
@@ -81,6 +88,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

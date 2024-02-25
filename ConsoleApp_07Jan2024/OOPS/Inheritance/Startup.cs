@@ -10,6 +10,22 @@ namespace ConsoleApp_07Jan2024.OOPS.Inheritance
     {
         static void Main(string[] args)
         {
+            GoldLoan GL = new GoldLoan();
+            Console.Write("Enter Princple Amount : ");
+            GL.PA = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter Tenure  : ");
+            GL.Tenure = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter ROI  : ");
+            GL.ROI = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Total Intrest : " + GL.GetTotalIntrest);
+
+            Console.WriteLine("Total Payable : " + GL.GetPayableAmount);
+
+            Console.WriteLine("Monthly EMI : " + GL.GetMonthlyEMI);
+
             //  GoldLoan GL = new GoldLoan()
             //  {
             //      AccountNumber = "y16356735671",
