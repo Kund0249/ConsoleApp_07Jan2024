@@ -34,12 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Jan2024.OOPS.Polymorphism.Startup</StartupObject>
+    <StartupObject>ConsoleApp_07Jan2024.Generics_Example.GenericList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MessagingServices">
-      <HintPath>..\..\MessagingServices\MessagingServices\bin\Debug\MessagingServices.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -61,6 +58,10 @@
     <Compile Include="ControlStatements\IFDemo.cs" />
     <Compile Include="ControlStatements\Pattern1.cs" />
     <Compile Include="ControlStatements\WhileLoopDemo.cs" />
+    <Compile Include="Enumeration\Notification.cs" />
+    <Compile Include="ExcaptionHandling\Demo.cs" />
+    <Compile Include="Generics_Example\Comparer.cs" />
+    <Compile Include="Generics_Example\GenericList.cs" />
     <Compile Include="Methods\Demo.cs" />
     <Compile Include="Methods\MathUtility.cs" />
     <Compile Include="OOPS\Abstraction\Department.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="OOPS\Polymorphism\MethodOverriding.cs" />
     <Compile Include="OOPS\Polymorphism\Startup.cs" />
     <Compile Include="OOPS\Startup.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticMember\Startup.cs" />
     <Compile Include="StaticMember\Student.cs" />

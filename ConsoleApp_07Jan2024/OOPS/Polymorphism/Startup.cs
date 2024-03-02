@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MessagingServices;
+
 
 namespace ConsoleApp_07Jan2024.OOPS.Polymorphism
 {
-    class MyCustomeEmailClient : EmailClient
+    class MyCustomeEmailClient
     {
-        public override void Send(string From, string To, string MessageBody)
+        public  void Send(string From, string To, string MessageBody)
         {
-            base.Send(From, To, MessageBody);
+            //base.Send(From, To, MessageBody);
             //logic to log this email
             Console.WriteLine("Email Logged to our local DB");
         }
@@ -31,8 +31,8 @@ namespace ConsoleApp_07Jan2024.OOPS.Polymorphism
         static void Main(string[] args)
         {
 
-            IEmailClient client = new EmailClient();
-            client.Send("k@gmail.com", "test@gmail.com", "Hi");
+            //IEmailClient client = new EmailClient();
+            //client.Send("k@gmail.com", "test@gmail.com", "Hi");
 
             //int N1 = 10;
             //int N2 = 20;
